@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PDF Studio</string>
+    <string name="widget_desc">PDF Studio — open, scan, merge and compress in one tap. Resize for more tools.</string>
+    <string name="widget_large_desc">PDF Studio dashboard — eight quick tools plus your last file.</string>
+    <string name="widget_recent_desc">Your recent PDFs, one tap to reopen. Includes quick Scan and Open.</string>
+    <string name="widget_quick_desc">A 1×1 shortcut to any tool you choose.</string>
+    <string name="widget_merge_desc">Merge PDFs in one tap</string>
+    <string name="widget_split_desc">Split a PDF in one tap</string>
+    <string name="widget_reorder_desc">Organise PDF pages in one tap</string>
+</resources>

@@ -1,0 +1,68 @@
+# ============================================================
+#  PDF Studio — .gitignore (Android · Kotlin · Gradle)
+# ============================================================
+
+# ---------- Gradle / Kotlin ----------
+.gradle/
+.kotlin/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+*.hprof
+
+# ---------- Android build outputs ----------
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+/builds/
+/release/
+/captures/
+.externalNativeBuild/
+.cxx/
+app/release/
+app/debug/
+
+# ---------- Signing keys & secrets (never commit) ----------
+*.jks
+*.keystore
+keystore.properties
+local.properties
+.env
+.env.*
+!.env.example
+google-services.json
+secrets.properties
+
+# ---------- IDEs & editors ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.fleet/
+*.swp
+*~
+
+# ---------- AI assistant / tool folders ----------
+.claude/
+.aistudio/
+assets/.aistudio/
+metadata.json
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---------- Logs, test & screenshot outputs ----------
+*.log
+/app/src/test/screenshots/
+/app/build/outputs/roborazzi/
+/app/src/test/roborazzi/
+
+# ---------- Scratch files ----------
+password_test.kt

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg_start">#FF1C1A2E</color>
+    <color name="widget_bg_end">#FF2A1F4A</color>
+    <color name="widget_stroke">#33FFFFFF</color>
+    <color name="widget_title">#FFFFFFFF</color>
+    <color name="widget_sub">#FFB9B4D6</color>
+    <color name="widget_accent">#FFFFB74D</color>
+    <color name="widget_label">#FFECE8FF</color>
+    <color name="widget_pill">#26FFFFFF</color>
+    <color name="widget_row">#14FFFFFF</color>
+</resources>

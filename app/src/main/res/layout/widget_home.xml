@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_bg" android:padding="14dp" android:clipToOutline="true"
+    android:gravity="center_vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <FrameLayout android:id="@+id/w_profile" android:layout_width="44dp" android:layout_height="44dp" android:background="@drawable/wt_violet">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center"
+                android:src="@drawable/wi_pdf" android:contentDescription="PDF Studio"/>
+        </FrameLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="10dp" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PDF Studio"
+                android:textColor="@color/widget_title" android:textSize="16sp" android:fontFamily="sans-serif-medium" android:textStyle="bold"/>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Made by "
+                    android:textColor="@color/widget_sub" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Prajwal"
+                    android:textColor="@color/widget_accent" android:textSize="11sp" android:textStyle="bold"/>
+                <TextView android:id="@+id/w_greeting" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="" android:textColor="@color/widget_sub" android:textSize="11sp" android:maxLines="1" android:ellipsize="end"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/w_search" android:layout_width="wrap_content" android:layout_height="34dp"
+            android:background="@drawable/widget_pill_bg" android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingStart="10dp" android:paddingEnd="12dp">
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/wi_search"
+                android:tint="@color/widget_accent" android:contentDescription="Search tools"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp"
+                android:text="Tools" android:textColor="@color/widget_label" android:textSize="12sp" android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp">
+        <LinearLayout android:id="@+id/t_open" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center_horizontal" android:padding="3dp">
+            <FrameLayout android:layout_width="46dp" android:layout_height="46dp" android:background="@drawable/wt_blue">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center"
+                    android:src="@drawable/wi_open" android:contentDescription="Open"/>
+            </FrameLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"
+                android:text="Open" android:textColor="@color/widget_label" android:textSize="11sp" android:maxLines="1"
+                android:ellipsize="end" android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/t_scan" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center_horizontal" android:padding="3dp">
+            <FrameLayout android:layout_width="46dp" android:layout_height="46dp" android:background="@drawable/wt_teal">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center"
+                    android:src="@drawable/wi_scan" android:contentDescription="Scan"/>
+            </FrameLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"
+                android:text="Scan" android:textColor="@color/widget_label" android:textSize="11sp" android:maxLines="1"
+                android:ellipsize="end" android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/t_merge" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center_horizontal" android:padding="3dp">
+            <FrameLayout android:layout_width="46dp" android:layout_height="46dp" android:background="@drawable/wt_violet">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center"
+                    android:src="@drawable/wi_merge" android:contentDescription="Merge"/>
+            </FrameLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"
+                android:text="Merge" android:textColor="@color/widget_label" android:textSize="11sp" android:maxLines="1"
+                android:ellipsize="end" android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/t_compress" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center_horizontal" android:padding="3dp">
+            <FrameLayout android:layout_width="46dp" android:layout_height="46dp" android:background="@drawable/wt_green">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center"
+                    android:src="@drawable/wi_compress" android:contentDescription="Compress"/>
+            </FrameLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"
+                android:text="Compress" android:textColor="@color/widget_label" android:textSize="11sp" android:maxLines="1"
+                android:ellipsize="end" android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

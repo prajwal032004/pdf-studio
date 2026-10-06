@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_bg" android:padding="14dp" android:clipToOutline="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <FrameLayout android:id="@+id/w_profile" android:layout_width="38dp" android:layout_height="38dp" android:background="@drawable/wt_violet">
+            <ImageView android:layout_width="21dp" android:layout_height="21dp" android:layout_gravity="center"
+                android:src="@drawable/wi_pdf" android:contentDescription="PDF Studio"/>
+        </FrameLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="10dp" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recent PDFs"
+                android:textColor="@color/widget_title" android:textSize="15sp" android:textStyle="bold" android:fontFamily="sans-serif-medium"/>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PDF Studio · Made by "
+                    android:textColor="@color/widget_sub" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Prajwal"
+                    android:textColor="@color/widget_accent" android:textSize="11sp" android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/w_scan" android:layout_width="36dp" android:layout_height="36dp" android:background="@drawable/wt_teal">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_gravity="center" android:src="@drawable/wi_scan" android:contentDescription="Scan"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/w_open" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginStart="8dp" android:background="@drawable/wt_blue">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_gravity="center" android:src="@drawable/wi_add" android:contentDescription="Open PDF"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="10dp">
+        <ListView android:id="@+id/recent_list" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:divider="@null" android:dividerHeight="0dp" android:scrollbars="none"/>
+        <LinearLayout android:id="@+id/recent_empty" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/wi_recent" android:tint="@color/widget_sub"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+                android:text="No recent files yet" android:textColor="@color/widget_title" android:textSize="13sp" android:fontFamily="sans-serif-medium"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="PDFs you open or create appear here" android:textColor="@color/widget_sub" android:textSize="11sp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:paddingBottom="6dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/widget_row_bg" android:orientation="horizontal" android:gravity="center_vertical" android:padding="10dp">
+        <FrameLayout android:layout_width="34dp" android:layout_height="34dp" android:background="@drawable/wt_red">
+            <ImageView android:layout_width="18dp" android:layout_height="18dp" android:layout_gravity="center" android:src="@drawable/wi_pdf"/>
+        </FrameLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="10dp" android:orientation="vertical">
+            <TextView android:id="@+id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="@color/widget_title" android:textSize="13sp" android:fontFamily="sans-serif-medium"
+                android:maxLines="1" android:ellipsize="middle"/>
+            <TextView android:id="@+id/item_meta" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="@color/widget_sub" android:textSize="11sp" android:maxLines="1"/>
+        </LinearLayout>
+        <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/wi_chevron" android:tint="@color/widget_sub"/>
+    </LinearLayout>
+</LinearLayout>

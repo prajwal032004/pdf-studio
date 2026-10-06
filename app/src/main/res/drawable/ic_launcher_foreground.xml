@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Document Page 3 (Back) -->
+    <path
+        android:pathData="M43,21 h34 a4,4 0 0,1 4,4 v55 a4,4 0 0,1 -4,4 h-34 a4,4 0 0,1 -4,-4 v-55 a4,4 0 0,1 4,-4 z"
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"/>
+
+    <!-- Document Page 2 (Middle) -->
+    <path
+        android:pathData="M39,23 h36 a4,4 0 0,1 4,4 v55 a4,4 0 0,1 -4,4 h-36 a4,4 0 0,1 -4,-4 v-55 a4,4 0 0,1 4,-4 z"
+        android:fillColor="#FAFAFA"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"/>
+
+    <!-- Document Page 1 (Front) -->
+    <path
+        android:pathData="M33,26 h40 a4,4 0 0,1 4,4 v55 a4,4 0 0,1 -4,4 h-40 a4,4 0 0,1 -4,-4 v-55 a4,4 0 0,1 4,-4 z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"/>
+
+    <!-- Pink Lines on Document Front -->
+    <path
+        android:pathData="M40,35 h26 a3,3 0 0,1 3,3 v2 a3,3 0 0,1 -3,3 h-26 a3,3 0 0,1 -3,-3 v-2 a3,3 0 0,1 3,-3 z"
+        android:fillColor="#FFD1D1"
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5"/>
+        
+    <path
+        android:pathData="M40,47 h26 a3,3 0 0,1 3,3 v2 a3,3 0 0,1 -3,3 h-26 a3,3 0 0,1 -3,-3 v-2 a3,3 0 0,1 3,-3 z"
+        android:fillColor="#FFD1D1"
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5"/>
+        
+    <!-- Red Folder Back -->
+    <path
+        android:pathData="M24,48 h22 l5,5 h27 a6,6 0 0,1 6,6 v26 a6,6 0 0,1 -6,6 h-54 a6,6 0 0,1 -6,-6 v-31 a6,6 0 0,1 6,-6 z"
+        android:fillColor="#D32F2F"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"/>
+
+    <!-- Red Folder Front -->
+    <path
+        android:pathData="M20,57 h32 l4,5 h30 a6,6 0 0,1 6,6 v17 a6,6 0 0,1 -6,6 h-60 a6,6 0 0,1 -6,-6 v-22 a6,6 0 0,1 6,-6 z"
+        android:fillColor="#F44336"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"/>
+
+    <!-- Text 'PDF' on Folder (White) -->
+    <!-- 'P' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,68 h6 c3,0 4.5,1 4.5,3.5 c0,2.5 -1.5,3.5 -4.5,3.5 h-3 v6 h-3 v-13 z m3,2.5 v2 h3 c1,0 1.5,-0.5 1.5,-1 c0,-0.5 -0.5,-1 -1.5,-1 h-3 z" />
+    <!-- 'D' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,68 h5 c4,0 6,2 6,6.5 c0,4.5 -2,6.5 -6,6.5 h-5 v-13 z m3,2.5 v8 h2 c2,0 3,-1 3,-4 c0,-3 -1,-4 -3,-4 h-2 z" />
+    <!-- 'F' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,68 h8 v2.5 h-5 v2.5 h4 v2.5 h-4 v5.5 h-3 v-13 z" />
+</vector>
